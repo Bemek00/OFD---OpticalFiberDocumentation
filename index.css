@@ -16,6 +16,23 @@
     float: left;
 }
 
+.menu_ofd{
+    height: 80px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.menu_ofd_a{
+    color: white;
+    font-size: 45px;
+    margin-right: 20px;
+    font-family: Tahoma;
+}
+
+.menu_hr{
+    border: 0.5px solid #404040;
+}
+
 .naglowek{
     width: calc(100% - 180px);
     height: 50px;
@@ -35,7 +52,7 @@
 
 .content{
     border: 1px solid darkgray;
-    border-radius: 10px;
+    border-radius: 5px;
     min-height: 400px;
     margin: 25px;
     background-color: white;

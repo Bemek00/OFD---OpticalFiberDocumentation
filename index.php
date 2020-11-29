@@ -9,7 +9,10 @@
     <body>
         <div class="screen">
             <div class="menu">
-
+                <div class="menu_ofd">
+                    <a class="menu_ofd_a"> OFD </a>
+                </div>
+                <hr class="menu_hr" />
             </div>
             <div class="naglowek">
                 <div class="naglowek_content">
