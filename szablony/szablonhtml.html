@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 
+<?php
+session_start();
+?>
+
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title> Optical Fiber Documentation </title>
+        <title> Optical Fiber Documentation <?php echo $_SESSION['zal']; ?> </title>
         <link rel="stylesheet" href="index.css" type="text/css" />
     </head>
     <body>

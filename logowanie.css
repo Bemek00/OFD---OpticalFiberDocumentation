@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('image/tlo1.jpg');
+}
+
+.okno{
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1em black;
+}
+
+.ramka{
+    border: 1px solid #202020;
+    border-radius: 5px;
+    width: 490px;
+    height: 290px;
+}
+
+.ramka_tlo{
+    height: 33%;
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logowanie_b{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.screen{
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+	justify-content: center;
+}

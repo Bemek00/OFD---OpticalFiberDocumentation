@@ -1,32 +1,11 @@
-<!DOCTYPE html>
+<?php
 
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title> Optical Fiber Documentation </title>
-        <link rel="stylesheet" href="index.css" type="text/css" />
-    </head>
-    <body>
-        <div class="screen">
-            <div class="menu">
-                <div class="menu_ofd">
-                    <a class="menu_ofd_a"> OFD </a>
-                </div>
-                <hr class="menu_hr" />
-            </div>
-            <div class="naglowek">
-                <div class="naglowek_content">
+session_start();
 
-                </div>
-                <div class="naglowek_hr">
-                    <hr />
-                </div>
-            </div>
-            <div class="tlo">
-                <div class="content">
+if(@$_SESSION['zal'] == NULL)
+    $_SESSION['zal'] = 0;
 
-                </div>
-            </div>
-        </div>
-    </body> 
-</html> 
+if($_SESSION['zal'] == 0)
+    header('Location: logowanie.php');
+
+?>
