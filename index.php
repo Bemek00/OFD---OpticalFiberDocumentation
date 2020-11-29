@@ -12,10 +12,17 @@
 
             </div>
             <div class="naglowek">
+                <div class="naglowek_content">
 
+                </div>
+                <div class="naglowek_hr">
+                    <hr />
+                </div>
             </div>
-            <div class="content">
+            <div class="tlo">
+                <div class="content">
 
+                </div>
             </div>
         </div>
     </body> 
