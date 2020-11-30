@@ -7,5 +7,7 @@ if(@$_SESSION['zal'] == NULL)
 
 if($_SESSION['zal'] == 0)
     header('Location: podstrony/logowanie.php');
+else if($_SESSION['zal'] > 0)
+    header('Location: podstrony/str_glowna.php');
 
 ?>

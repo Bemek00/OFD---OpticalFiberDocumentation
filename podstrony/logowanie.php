@@ -24,9 +24,10 @@ session_start();
                             Hasło <br />
                             <input type="password" name="haslo" class="pole" /> <br />
                             <input type="submit" value="Zaloguj" name="zaloguj" class="przycisk" />
+
                         </form>
                         <?php
-                        include 'logowanieS.php';
+                        include '../skrypty/logowanieS.php';
                         ?>
                     </div>
                 </div>
