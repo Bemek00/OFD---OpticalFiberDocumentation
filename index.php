@@ -6,6 +6,6 @@ if(@$_SESSION['zal'] == NULL)
     $_SESSION['zal'] = 0;
 
 if($_SESSION['zal'] == 0)
-    header('Location: logowanie.php');
+    header('Location: podstrony/logowanie.php');
 
 ?>

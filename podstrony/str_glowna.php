@@ -8,7 +8,7 @@ session_start();
     <head>
         <meta charset="UTF-8"/>
         <title> Optical Fiber Documentation <?php echo $_SESSION['zal']; ?> </title>
-        <link rel="stylesheet" href="srt_glowna.css" type="text/css" />
+        <link rel="stylesheet" href="style/srt_glowna.css" type="text/css" />
     </head>
     <body>
         <div class="screen">
